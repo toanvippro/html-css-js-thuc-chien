@@ -7,6 +7,7 @@ function toggleModal() {
 	modal.classList.toggle('hide')
 }
 
+
 openModalBtn.addEventListener('click', toggleModal)
 iconCloseModal.addEventListener('click', toggleModal)
 buttonCloseModal.addEventListener('click', toggleModal)
